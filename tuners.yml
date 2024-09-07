@@ -7,7 +7,7 @@
   command: >-
     dvbv5-zap -a 0 -c ./config/dvbconf-for-isdb/conf/dvbv5_channels_isdbs.conf
     -r -P <channel>
-  isDisabled: false
+  isDisabled: true
 
 - name: adapter1
   types:
@@ -38,4 +38,4 @@
   command: >-
     dvbv5-zap -a 3 -c ./config/dvbconf-for-isdb/conf/dvbv5_channels_isdbt.conf
     -r -P <channel>
-  isDisabled: true
+  isDisabled: false
